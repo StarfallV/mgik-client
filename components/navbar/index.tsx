@@ -5,17 +5,17 @@ import ModalLogin from '../modals/login'
 function Navbar({ login } : any) {
     return (
         <>
-            <nav className="shadow-sm fixed w-full z-10">
-                <div className="w-full">
-                    <div className="flex items-center h-16 w-full">
-                        <div className="flex items items-center mx-20 justify-between w-full">
+            <nav className="shadow-sm fixed h-full z-10">
+                <div className="h-full">
+                    <div className="flex items-center w-20 h-full">
+                        <div className="flex flex-col items items-center mx-4 h-full">
                             <div className="flex justify-center items-center flex-shrink-0">
                                 <h1 className="font-black text-2xl text-blue-700 cursor-pointer">
                                     NIKOLA
                                 </h1>
                             </div>
-                            <div className="flex flex-row divide-x-2">
-                                <div className="ml-10 flex items-baseline space-x-10">
+                            <div className="flex flex-col divide-x-2">
+                                <div className="ml-10 flex flex-col items-baseline space-x-10">
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
                                     className="cursor-pointer tracking-wide text-gray-700 font-semibold px-3 py-2 hover:text-blue-500 transition linear duration-300">
                                         Beranda
