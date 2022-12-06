@@ -10,38 +10,38 @@ function Navbar({ login } : any) {
                     <div className="flex items-center w-fit px-5 h-full">
                         <div className="flex flex-col items items-center mx-4 h-full">
                             <div className="flex justify-center py-4 items-center flex-shrink-0">
-                                <h1 className="font-black text-2xl text-blue-700 cursor-pointer">
+                                <h1 className="font-black text-2xl text-green-600 cursor-pointer">
                                     M-GIK
                                 </h1>
                             </div>
                             <div className="flex flex-col">
                                 <div className=" flex flex-col items-baseline w-32">
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
-                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-green-500 transition linear duration-300">
                                         Dashboard
                                     </Link>
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
-                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-green-500 transition linear duration-300">
                                         PO
                                     </Link>
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
-                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-green-500 transition linear duration-300">
                                         Outlet
                                     </Link>
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
-                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-green-500 transition linear duration-300">
                                         Kontrak
                                     </Link>
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
-                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-green-500 transition linear duration-300">
                                         Item
                                     </Link>
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
-                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-green-500 transition linear duration-300">
                                         Gudang
                                     </Link>
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
-                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold pl-1 pr-3 py-2 w-full hover:text-green-500 transition linear duration-300">
                                         Stok Gudang
                                     </Link>                                                       
                                 </div> 
