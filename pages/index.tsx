@@ -21,17 +21,17 @@ const Home: NextPage = () => {
   return (
     <>
       <Navbar login={setModalLoginOpen} />
-      <div className="flex min-h-screen flex-col items-center justify-center py-2">
+      {/* <div className="flex min-h-screen flex-col items-center justify-center py-2">
         <div onClick={BackdropClick} className={`absolute z-50 w-screen h-screen bg-black/50 backdrop-blur-sm justify-center items-center flex transition-all duration-500 ${modalLoginOpen ? 'visible opacity-100' : 'visibility-hidden opacity-0'}`}>
           <ModalLogin open={modalLoginOpen} onClose={() => setModalLoginOpen(false)} />
-        </div>
+        </div> */}
 
         <Head>
-          <title>Nikola</title>
+          <title>M-GIK</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <main className="flex w-full flex-1 flex-row justify-center">
+        {/* <main className="flex w-full flex-1 flex-row justify-center">
           <div className="flex w-1/2 flex-1 flex-col items-start justify-center px-20 text-center text-gray-800 gap-7">
             <div className="flex flex-row gap-4 items-center justify-center h-32">
               <Image src="/logo_gov.png" alt="govmaluku logo" width={92} height={92} />
@@ -72,7 +72,7 @@ const Home: NextPage = () => {
         </main>
 
         <Footer />
-      </div>
+      </div> */}
 
     </>
   )

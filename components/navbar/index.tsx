@@ -9,32 +9,36 @@ function Navbar({ login } : any) {
                 <div className="h-full">
                     <div className="flex items-center w-20 h-full">
                         <div className="flex flex-col items items-center mx-4 h-full">
-                            <div className="flex justify-center items-center flex-shrink-0">
+                            <div className="flex justify-center py-4 items-center flex-shrink-0">
                                 <h1 className="font-black text-2xl text-blue-700 cursor-pointer">
-                                    NIKOLA
+                                    M-GIK
                                 </h1>
                             </div>
                             <div className="flex flex-col divide-x-2">
-                                <div className="ml-10 flex flex-col items-baseline space-x-10">
+                                <div className=" flex flex-col items-baseline space-x-3">
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
-                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold px-3 py-2 hover:text-blue-500 transition linear duration-300">
-                                        Beranda
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold px-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                        Dashboard
                                     </Link>
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
-                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold px-3 py-2 hover:text-blue-500 transition linear duration-300">
-                                        Berita
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold px-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                        PO
                                     </Link>
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
-                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold px-3 py-2 hover:text-blue-500 transition linear duration-300">
-                                        Peraturan
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold px-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                        Outlet
                                     </Link>
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
-                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold px-3 py-2 hover:text-blue-500 transition linear duration-300">
-                                        Event
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold px-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                        Kontrak
                                     </Link>
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
-                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold px-3 py-2 hover:text-blue-500 transition linear duration-300">
-                                        Sharing Materi
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold px-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                        Item
+                                    </Link>
+                                    <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
+                                    className="cursor-pointer tracking-wide text-gray-700 font-semibold px-3 py-2 w-full hover:text-blue-500 transition linear duration-300">
+                                        Gudang
                                     </Link>                                                       
                                 </div> 
                                 <div className="ml-4 flex items-baseline space-x-10">                  
